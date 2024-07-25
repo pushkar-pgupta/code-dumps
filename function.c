@@ -17,7 +17,7 @@ int division(int a, int b) {
         return a / b;
     } else {
         printf("Error: Division by zero\n");
-        return 0; // Or handle error as needed
+        return 0;
     }
 }
 
