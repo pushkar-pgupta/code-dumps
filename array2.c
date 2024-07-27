@@ -10,9 +10,11 @@ int main()
     scanf("%d",&arr[i]);
 
    }
+   printf("The requied elements are\n");
    for (int j=0;j<n;j++)
    {
     printf("%d",arr[j]);
+    printf("\n");
    }
  return 0;
 }
