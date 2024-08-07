@@ -2,15 +2,22 @@
 using namespace std;
 class abc
 {
-    public:
     int a;
+    public:
+    void read()
+    {
+        cin>>this->a;
+    }
+    void disp()
+    {
+        cout<<a;
+    }
 
 };
 int main()
 {
     abc ob,*ptr;
-    ob.a=5;
-    ptr=&ob;
-    cout<<ptr->a;
+    ob.read();
+    ob.disp();
     return 0;
 }
