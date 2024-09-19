@@ -40,6 +40,7 @@ int evaluatePostfix(char *exp)
     initStack(&s);
     char *p=exp;
     while(*p)
+    
     {
         if(isdigit(*p))
         {
