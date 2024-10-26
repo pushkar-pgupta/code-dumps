@@ -3,7 +3,9 @@ using namespace std;
 class b
 {
     public:
-     virtual void xyz()
+     virtual void xyz() // once declared retains its property across classes
+     // do mot need to explicitly mention everytime
+     
     {
         cout<<"Hello";
     }
